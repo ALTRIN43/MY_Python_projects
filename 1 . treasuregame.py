@@ -1,35 +1,4 @@
-"""
-print("Welcome to the tip calculator! ")
-bill = float(input("What was the total bill? "))
-tip = int(input("how much tip would you like to give? 10, 20, 30"))
-people = int(input("How many people to split the bill? "))
-tip_as_percent = tip / 100
-total_tip_amount = bill * tip_as_percent
-total_bill = bill + total_tip_amount
-bill_per_person = total_bill / people
-final_amount = "{:.2f}".format(bill_per_person)
-print(f"Each person should pay {final_amount}")
-"""
 
-# print("Welcome to the tip calculator! ")
-# bill = float(input("what was the total bill? "))
-# tip = int(input("How much tips would you like to give? 10 20 30"))
-# people = int(input("How many people gonna share the bill? "))
-# tip_as_percentage = tip / 100
-# total_tip_amount = tip_as_percentage + bill
-# bill_per_person = total_tip_amount / people
-# final_amount = "{:.2f}".format(bill_per_person)
-# print(final_amount)
-
-# BAND NAME GENERATOR
-# print("Welcome to the band name generator! ")
-# city = input("What was the name of your city? ")
-# pet = input("What was the name of your pet? ")
-# band_name = city +  pet
-# print(f"The band name we suggest is {band_name}")
-
-
-# day 3 treasure island
 
 print("Welcome to the world of treasure!")
 print("To get the treasure u want to go in a right path.")
