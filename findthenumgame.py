@@ -42,7 +42,7 @@ def set_difficulty():
 def game():
     print(logo)
     # choosing a random number between 1 and 100
-    print("Welcom to the Number Guessing Game!")
+    print("Welcome to the Number Guessing Game!")
     print("Im thinking of a number between 1 and 100")
     answer = randint(1, 100)
     print(f"pssst, the correct answer is {answer}")
@@ -53,14 +53,13 @@ def game():
     while guess != answer:
         print(f"You have {turns} attempts remaining to guess the number")
 
-        guess = int(input("Make a guess : "))
+        guess = int(input("Make a guess ?: "))
 
         turns = check_answer(guess, answer, turns)
         if turns == 0:
-            print("You've run out of chance. you lose.")
+            print("You've run out of chance. you lose :(")
             return
         elif guess != answer:
-            print("Guess again")
-
+            print("Guess again :)")
 
 game()
